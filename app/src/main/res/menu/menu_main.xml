@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.martialartsapp.MainActivity">
+    <item
+        android:id="@+id/add_martial_art"
+        android:title="Add martial Art"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/delete_martial_art"
+        android:title="Delete martial Art"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/update_martial_art"
+        android:title="Update martial Art"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/martial_art_reset_price"
+        android:title="Reset Martial Art Prices"
+        app:showAsAction="ifRoom" />
+</menu>
